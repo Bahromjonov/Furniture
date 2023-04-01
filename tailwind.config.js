@@ -54,9 +54,6 @@ module.exports = {
         '50':'50px',
         '3':'3px'
       },
-      boxShadow:{
-        'shadow':' #00000040'
-      }
     },
   },
   plugins: [],
