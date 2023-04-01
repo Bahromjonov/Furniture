@@ -525,24 +525,12 @@ video {
   bottom: -2.5rem;
 }
 
-.-right-24 {
-  right: -6rem;
-}
-
-.bottom-5 {
-  bottom: 1.25rem;
-}
-
 .left-24 {
   left: 6rem;
 }
 
 .left-36 {
   left: 9rem;
-}
-
-.top-5 {
-  top: 1.25rem;
 }
 
 .right-0 {
@@ -600,10 +588,6 @@ video {
 
 .mr-16 {
   margin-right: 4rem;
-}
-
-.mr-2 {
-  margin-right: 0.5rem;
 }
 
 .mr-20 {
@@ -700,10 +684,6 @@ video {
 
 .max-w-base {
   max-width: 1440px;
-}
-
-.basis-1\/2 {
-  flex-basis: 50%;
 }
 
 .grid-flow-col {
@@ -828,6 +808,11 @@ video {
   padding-bottom: 9rem;
 }
 
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -846,11 +831,6 @@ video {
 .py-\[150px\] {
   padding-top: 150px;
   padding-bottom: 150px;
-}
-
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
 .pb-10 {
@@ -1025,10 +1005,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.opacity-30 {
-  opacity: 0.3;
-}
-
 .shadow {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
@@ -1040,17 +1016,3 @@ video {
   --tw-shadow: var(--tw-shadow-colored);
 }
 
-/* @layer components{
-    .btn-red{
-        @apply bg-red-600 hover:bg-yellow-400 active:opacity-30 
-    }
-    .btn-green{
-        @apply bg-green-600 hover:bg-red-400 active:opacity-30  
-    }
-    .btn-yellow{
-        @apply bg-yellow-600 hover:bg-blue-400 active:opacity-30 
-    }
-    .btn{
-       @apply py-3 px-8 rounded-sm transition-all duration-300
-    } 
-} */
