@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer components{
+    .btn-red{
+        @apply bg-red-600 hover:bg-yellow-400 active:opacity-30 
+    }
+    .btn-green{
+        @apply bg-green-600 hover:bg-red-400 active:opacity-30  
+    }
+    .btn-yellow{
+        @apply bg-yellow-600 hover:bg-blue-400 active:opacity-30 
+    }
+    .btn{
+       @apply py-3 px-8 rounded-sm transition-all duration-300
+    } 
+} */
